@@ -1,0 +1,1 @@
+(function(){String.prototype.contains=function(s){return this.indexOf(s)!==-1;};String.prototype.drop=function(n){return this.substring(n,this.length);};String.prototype.take=function(n){return this.substring(0,n);};Array.prototype.take=function(n){return this.slice(0,n);};}).call(this);
